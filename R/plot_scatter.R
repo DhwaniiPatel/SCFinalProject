@@ -64,7 +64,7 @@ plot2 <- function(gene_mixed,gene) {
   plot <- gene_data |> ggplot(aes(x = lmer_fitted, y = lmer_resid))+
     geom_point() +
     ggtitle("Residual") +
-    xlab("Concentration") +
+    xlab("Fitted") +
     ylab("Residuals") +
     geom_hline(yintercept=mean(lmer_resid),color="red") +
     theme(legend.position="top", legend.title = element_blank(), plot.title = element_text(hjust = 0.5)) +
