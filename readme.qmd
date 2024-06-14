@@ -1,0 +1,94 @@
+---
+title: "Predictive Analysis"
+author: Dhwani Patel
+date: today
+date-format: long
+format: 
+  html: 
+    self-contained: true
+    df-print: tibble
+editor_options: 
+  chunk_output_type: console
+execute: 
+  warning: false
+  message: false
+---
+
+## Gene expression
+
+Data for gene expressions for a new treatement was provided on 05/03/2024 by Karl Berator. The data contains measurements of gene expressions for 2 different cell lines (wild type and cell line 101) for the treatment of activating factor 42 and placebo. Gene expressions were recorded for multiple concentrations levels. The data was used to develop a predictive model to determine how the treatment affects the gene expressions on different cells. 
+
+The following libraries are used to analyse this data.
+
+```{r, setup}
+library(tidyverse)
+library(targets)
+library(gt)
+library(pwr)
+library(sjPlot)
+library(targets)
+library(tarchetypes)
+library(reshape)
+library(lme4)
+library(lmerTest)
+library(emmeans)
+library(ggpubr)
+library(ggrepel)
+library(stringr)
+```
+
+A sample size estimate was requested on 20/05/2024. The total sample size required for a linear regression with 5 predictors, $R^2$ of 0.1, significance level of 0.05 and power of 90% is calculated below:
+
+```{r}
+ES <- 0.1 / (1-0.1)
+x <- pwr.f2.test(u = 5, f2 = ES, sig.level = 0.05, power = 0.9)
+x$u + x$v + 1
+```
+
+Each cell type had 4 groups that were each measured at 11 different concentration levels. The following table shows how the data is categorised and the relationships that are important to consider.
+
+```{r}
+tar_read(categories)
+```
+
+Given there are 2 distinct cell types and 2 treatments (activating factor 42 and placebo), the following figure is generated to show the relationship between the gene expressions as concentration varies comparing the different cells, treatments and groups.
+
+```{r fig.height=8, fig.width=10}
+tar_read(gene_plot)
+```
+
+It can be seen that each group has a different trajectory of the gene expression measurement as concentration increases. The growth of the gene expressions as a result of the new treatment of the activating factor 42 is quantified in the table below. 
+
+```{r}
+tar_read(growth)
+```
+
+The analysis above shows that there are multiple observations with varying concentration for each group of cells. There are repeated measures with random effects that varies from group to group and hence a *mixed effects* model is used to predict gene expression.
+
+***Mixed effects model***
+
+We have hierarchical data in terms with the different cell lines and groups for each concentration level. This introduces random effects that can be incorporated into the model with random intercepts. There are 3 predictors of the gene expression: concentration, treatment and cell line. There are multiple groups this is recorded for and those are used to vary the intercepts by each of those groups. The following is the model output:
+
+```{r}
+tar_read(model_output)
+```
+
+Another representation of the model output is shown below with some more insights on the importance of each predictor on the prediction of gene expression.
+
+```{r}
+tar_read(results)
+```
+
+Below is a residual plot of the gene expression predictions. 
+
+```{r fig.height=8, fig.width=10}
+tar_read(residual_plot)
+```
+
+This predictive model used random intercepts only. Random slopes can be added in the future with a larger dataset if avaliable to have a better fit as we saw the differing trajectories of each group in the relationship plots. 
+
+
+The project is stored in: 
+```{r}
+here::here()
+```

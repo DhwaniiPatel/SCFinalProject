@@ -1,0 +1,89 @@
+﻿cell_line,treatment,name,conc,gene_expression
+Wild-type,Placebo,GL-cDZ,0,5.92
+Wild-type,Placebo,GL-cDZ,1,3.34
+Wild-type,Placebo,GL-cDZ,2,5.54
+Wild-type,Placebo,GL-cDZ,3,4.89
+WILD-TYPE,Placebo,GL-cDZ,4,3.44
+Wild-type,Placebo,GL-cDZ,5,5.55
+Wild-type,Placebo,GL-cDZ,6,4.63
+Wild-type,Placebo,GL-cDZ,7,4.29
+Wild-type,Placebo,GL-cDZ,8,5.7
+Wild-type,Placebo,GL-cDZ,9,4.77
+Wild-type,Placebo,GL-cDZ,10,3.77
+Cell-type 101,Placebo,GL-cwN,0,7.75
+Cell-type 101,Placebo,Gl-Cwn,1,8.53
+Cell-type 101,placebo,GL-cwN,2,11.47
+Cell-type 101,placebo,GL-cwN,3,9.66
+Cell-type 101,Placebo,GL-cwN,4,13.98
+Cell-type 101,Placebo,GL-cwN,5,16.45
+Cell-type 101,Placebo,GL-cwN,6,17.45
+CELL-TYPE 101,Placebo,GL-cwN,7,19.18
+Cell-type 101,Placebo,GL-cwN,8,22.24
+Cell-type 101,Placebo,GL-cwN,9,21.61
+Cell-type 101,Placebo,Gl-Cwn,10,23.24
+Cell-type 101,Placebo,GL-kYH,0,7.15
+Cell-type 101,Placebo,GL-kYH,1,7.76
+Cell-type 101,Placebo,GL-kYH,2,8.75
+Cell-type 101,placebo,GL-kYH,3,10.89
+Cell-type 101,Placebo,GL-kYH,4,9.35
+Cell-type 101,Placebo,GL-kYH,5,11.55
+CELL-TYPE 101,Placebo,GL-kYH,6,14.13
+Cell-type 101,Placebo,GL-kYH,7,15.03
+Cell-type 101,Placebo,GL-kYH,8,17.32
+Cell-type 101,Placebo,GL-kYH,9,17.95
+Cell-type 101,Placebo,GL-kYH,10,20.21
+Cell-type 101,Activating factor 42,GL-MFA,0,8.12
+Cell-type 101,Activating factor 42,GL-MFA,1,13.83
+Cell-type 101,Activating factor 42,GL-MFA,2,15.32
+Cell-type 101,Activating factor 42,GL-MFA,3,19.25
+CELL-TYPE 101,Activating factor 42,GL-MFA,4,20.76
+Cell-type 101,Activating factor 42,GL-MFA,5,24.82
+Cell-type 101,Activating factor 42,GL-MFA,6,24.92
+Cell-type 101,Activating factor 42,GL-MFA,7,28.66
+Cell-type 101,Activating factor 42,GL-MFA,8,33.84
+Cell-type 101,Activating factor 42,GL-MFA,9,35.98
+CELL-TYPE 101,Activating factor 42,GL-MFA,10,38.52
+Wild-type,Activating factor 42,GL-rjS,0,9.32
+WILD-TYPE,activating factor 42,Gl-Rjs,1,10.35
+Wild-type,Activating factor 42,GL-rjS,2,13.04
+Wild-type,Activating factor 42,GL-rjS,3,12.68
+WILD-TYPE,Activating factor 42,GL-rjS,4,15.53
+WILD-TYPE,Activating factor 42,GL-rjS,5,17.17
+Wild-type,Activating factor 42,GL-rjS,6,17.31
+Wild-type,Activating factor 42,GL-rjS,7,18.54
+Wild-type,Activating factor 42,GL-rjS,8,19.84
+WILD-TYPE,Activating factor 42,GL-rjS,9,22.74
+Wild-type,Activating factor 42,GL-rjS,10,24.17
+Wild-type,Placebo,GL-XIb,0,5.05
+Wild-type,Placebo,GL-XIb,1,4.15
+Wild-type,Placebo,GL-XIb,2,6.67
+Wild-type,Placebo,GL-XIb,3,6.35
+WILD-TYPE,Placebo,Gl-Xib,4,5.48
+Wild-type,Placebo,GL-XIb,5,4.74
+Wild-type,Placebo,GL-XIb,6,2.58
+Wild-type,Placebo,GL-XIb,7,2.97
+Wild-type,Placebo,GL-XIb,8,3.68
+Wild-type,Placebo,GL-XIb,9,3.46
+Wild-type,Placebo,GL-XIb,10,4.07
+Wild-type,Activating factor 42,GL-Xik,0,10.22
+Wild-type,Activating factor 42,GL-Xik,1,13.25
+Wild-type,Activating factor 42,GL-Xik,2,18.7
+Wild-type,Activating factor 42,GL-Xik,3,20.32
+Wild-type,Activating factor 42,GL-Xik,4,24.33
+Wild-type,Activating factor 42,GL-Xik,5,29.07
+Wild-type,Activating factor 42,GL-Xik,6,29.83
+Wild-type,Activating factor 42,GL-Xik,7,33.04
+Wild-type,Activating factor 42,GL-Xik,8,36.1
+Wild-type,Activating factor 42,GL-Xik,9,40.77
+Wild-type,Activating factor 42,GL-Xik,10,44.44
+Cell-type 101,Activating factor 42,GL-ZHw,0,11.4
+Cell-type 101,activating factor 42,GL-ZHw,1,10.41
+Cell-type 101,Activating factor 42,GL-ZHw,2,9.8
+Cell-type 101,Activating factor 42,GL-ZHw,3,9.46
+Cell-type 101,Activating factor 42,GL-ZHw,4,8.21
+Cell-type 101,Activating factor 42,Gl-Zhw,5,8.46
+Cell-type 101,Activating factor 42,GL-ZHw,6,9.44
+Cell-type 101,Activating factor 42,GL-ZHw,7,7.45
+Cell-type 101,Activating factor 42,GL-ZHw,8,8.31
+Cell-type 101,Activating factor 42,GL-ZHw,9,10.27
+Cell-type 101,Activating factor 42,GL-ZHw,10,8.83

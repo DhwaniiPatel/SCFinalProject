@@ -1,0 +1,55 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|067f3b929dd2884c|||||||||||||||
+categories|stem|e4dbbf469d6a2c74|301ef3122c54f830|52531745f457172d|-1357652324||t19887.5551741241s|2a1f33de5557aefc|13785|rds|local|vector|||0.382||
+christmas_movies1|stem|c1ae5a2ab8f6d8a1|eb774ce8add1f757|e4ed20f1a3fb64ef|-801196494||t19798.9670458337s|1470981d9646d730|48056|rds|local|vector|||0.029||
+christmas_movies2|stem|7e42dcea93f085f5|2cfe8193ea41ace4|d909e318b1ecd6ed|731042361||t19798.9670464399s|a24349140d80810c|9867|rds|local|vector|||0.04||
+clean_data|function|0f0f5707b0ffc7ba|||||||||||||||
+clean_data2|function|68bfb4cd17f82b11|||||||||||||||
+clean_data3|function|c522175516929e83|||||||||||||||
+clean_movies|function|1de0c4a8a08b2d23|||||||||||||||
+clean_movies1|function|6cae7ba3a3c18119|||||||||||||||
+clean_movies2|function|68bfb4cd17f82b11|||||||||||||||
+clean_movies3|function|c522175516929e83|||||||||||||||
+content_categories|stem|2050a19cf6514711|05fe01e9738749b0|a1b3105bb0ba44b5|-1842928593||t19798.9670452797s|4ea3c64b861dda77|48060|rds|local|vector|||0.052||
+fit_model|function|8d35e91d81340003|||||||||||||||
+gene_cell1|stem|c8d824242aa54121|903eaac0c6d460cc|9d5729dec495a9be|324002894||t19886.5790290781s|6f4c3c775ad9cd4d|528|rds|local|vector|||0.001||
+gene_cell2|stem|d7a55efde77d2811|249469e3989b3be6|a2871bc42110f98a|-1284742309||t19886.579029176s|a4e86d7dd5320bc6|530|rds|local|vector|||0||
+gene_data|stem|44aa5b5097c45f60|b4d4d0a7202fa075|ef46db3751d8e999|1727003020|raw-data/2024-03-19-WIF-tis4d.csv|t19801.5253981009s|5d37e50e702fd324|3752|file|local|vector|||1.152||
+gene_data_clean|stem|6950aea6ea7d278a|f5652d38e21fa57b|ddf7f5a75865ffed|-232423158||t19886.5800001528s|35c48de246a8856b|871|rds|local|vector|||0.299||
+gene_name|function|75a8c574730e24c5|||||||||||||||
+gene_plot|stem|478ab982b64ae37e|10790a4fc75a804a|e96db6242c568d1d|-406782303||t19887.9267974583s|9ac49cfa5c2aaf56|354030|rds|local|vector|||0.97|The size argument of element_rect is deprecated as of ggplot2 3.4.0.ℹ Please use the linewidth argument instead.. The size argument of element_line is deprecated as of ggplot2 3.4.0.ℹ Please use the linewidth argument instead.. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in|
+genres|stem|fb82e973a4af4c72|b84cb5d7ebfbf43b|969e5085a7d1e0ac|-1744762769||t19798.9670472847s|b4c17dbd66f58f0a|10710|rds|local|vector|||0.021||
+get_table|function|ea2014cdad0cf831|||||||||||||||
+get_table_display|function|32542b342907e588|||||||||||||||
+get_table_growth|function|bff12347f60a7617|||||||||||||||
+get_table2|function|00dde5a0a043da05|||||||||||||||
+get_table3|function|161a74aa0c287f3d|||||||||||||||
+get_table4|function|409655d3e5acc6d3|||||||||||||||
+get_table5|function|eeef7c182447599a|||||||||||||||
+growth|stem|c19aa27536d5f9be|0555518ede6e3808|cd87d173ad26719e|1243983402||t19886.580001813s|09a8b58c9ac5ae74|3033|rds|local|vector|||0.131||
+growth_rate|function|2470073f83e06301|||||||||||||||
+model_output|stem|65d6425ecc5cc840|07340ee1851de051|6cc6da1997640d24|-1643872596||t19885.4959559462s|fa672c123079089c|140641|rds|local|vector|||0.535||
+model_results|function|d2590d1d27ccdce5|||||||||||||||
+movies_clean|stem|a019d2e0aa6e31fd|a97db3069af36aef|b5a685da39139b97|1258346229||t19798.2687862416s|b5dedd2f9424cc10|729|rds|local|vector|||0.386||
+movies_clean2|stem|25fd770df3897997|ca6b5e0d6ceadd25|9c01ca68877284d4|-429937663||t19798.1514123879s|576c25ee0ea1ed5a|38672|rds|local|vector|||0.235||
+movies_clean3|stem|afe4f8c2342829fa|897b5eed08e976ef|a47a996aa8641252|2005544914||t19798.5062113315s|56198aeaf784b8d2|1525|rds|local|vector|||0.017||
+movies_clean4|stem|fb82e973a4af4c72|b84cb5d7ebfbf43b|969e5085a7d1e0ac|-1600545434||t19798.9510265765s|b4c17dbd66f58f0a|10710|rds|local|vector|||0.05||
+movies_file|stem|e9a99c06c7f96260|c272d45035b0c54d|ef46db3751d8e999|-487212977|raw-data/2024-03-11-movies.csv|t19792.9438099543s|34bf4b86efdb9494|338904|file|local|vector|||0.676||
+movies_plot|stem|b87f67e427e084aa|5d64c3aa2a8325de|f56fbb2763ed41da|-1966011639||t19798.5379434314s|ef92d0022efb1e55|242446|rds|local|vector|||0.02||
+movies_plot2|stem|ab847120358c1042|dab3272a0214583d|a29755ae173866b8|-1078781057||t19798.5385841126s|9e74904f6dd60024|90798|rds|local|vector|||0.015||
+movies_table|stem|7e42dcea93f085f5|2cfe8193ea41ace4|d909e318b1ecd6ed|1956725319||t19798.5475379606s|a24349140d80810c|9867|rds|local|vector|||0.049||
+movies_table2|stem|2050a19cf6514711|05fe01e9738749b0|a1b3105bb0ba44b5|320761671||t19798.1541283155s|4ea3c64b861dda77|48060|rds|local|vector|||0.056||
+movies_table3|stem|23ee3e2c2a0f0c56|eb774ce8add1f757|e4ed20f1a3fb64ef|-704717772||t19798.1645574618s|46b152ea0992d25f|12252|rds|local|vector|||0.028||
+movies_table4|stem|07fd2da142b430ad|a0a4775a0427c11d|34a08d8866513700|1050386182||t19798.4875911066s||25892|rds|local|vector|||0.089||ℹ In argument mean_rating  meanaverage_rating.ℹ In group 1 genres  Action,Adventure,Comedy.Caused by error object average_rating not found
+movies_table5|stem|3880581413816349|422b1782fc689fca|e136aff0d28102d2|1701738505||t19798.9538012516s|be29e8c48da0992d|10882|rds|local|vector|||0.053||
+movies_table6|stem|68839f67e42c7426|d03a37cdec83632f|92ca77b6a5946615|-254673360||t19798.4818564751s||304|rds|local|vector|||0.008||no applicable method for filter applied to an object of class cgt_tbl, list
+mpg_file|stem||73766dc5167fbf04|ef46db3751d8e999|-959890347|raw-data/2024-03-11-movies.xlxs|t19792.9210270043s||0|file|local|vector|||||_paths_ missing files rawdata20240311movies.xlxs
+output_plot|stem|6b7e19ba5c1b5a5b|f41bdc54318aa77c|a2f2b6114d10e524|-790954291||t19886.5714854578s|8580f5079213cde2|1657|rds|local|vector|||0.794||
+plot_scatter|function|2b45b800a308fa74|||||||||||||||
+plot_scatter2|function|fd74fd90684410b6|||||||||||||||
+plot2|function|39b0e8c40d6a0a2d|||||||||||||||
+plot3|function|8d591f898ac4e7d0|||||||||||||||
+readme|stem|1567960493f3cfd1|13d2a9c26dee3a69|8bd74b2feac4b44a|980901812|readme.html*readme.qmd|t19888.004315162s|bae270300e54ecec|1392788|file|local|vector|||11.893||
+residual_plot|stem|602127bf34af2094|82d3ae010478ad82|451b8333b4dbae1e|186144913||t19888.0041759541s|f50a1dc87bdd4579|248373|rds|local|vector|||0.129||
+results|stem|6b7e19ba5c1b5a5b|f41bdc54318aa77c|bc44a82f0802d290|-322906963||t19886.5761271951s|8580f5079213cde2|1657|rds|local|vector|||0.744||
+weighted_genres|stem|3880581413816349|422b1782fc689fca|e136aff0d28102d2|-1764477714||t19798.9670469033s|be29e8c48da0992d|10882|rds|local|vector|||0.028||
