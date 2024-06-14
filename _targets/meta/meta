@@ -1,10 +1,10 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|067f3b929dd2884c|||||||||||||||
-categories|stem|e4dbbf469d6a2c74|301ef3122c54f830|52531745f457172d|-1357652324||t19887.5551741241s|2a1f33de5557aefc|13785|rds|local|vector|||0.382||
+.Random.seed|object|a09744a9702bc7bd|||||||||||||||
+categories|stem|e4dbbf469d6a2c74|301ef3122c54f830|fa6a33966fdd809c|-1357652324||t19888.1267436623s|2a1f33de5557aefc|13785|rds|local|vector|||0.063||
 christmas_movies1|stem|c1ae5a2ab8f6d8a1|eb774ce8add1f757|e4ed20f1a3fb64ef|-801196494||t19798.9670458337s|1470981d9646d730|48056|rds|local|vector|||0.029||
 christmas_movies2|stem|7e42dcea93f085f5|2cfe8193ea41ace4|d909e318b1ecd6ed|731042361||t19798.9670464399s|a24349140d80810c|9867|rds|local|vector|||0.04||
-clean_data|function|0f0f5707b0ffc7ba|||||||||||||||
-clean_data2|function|68bfb4cd17f82b11|||||||||||||||
+clean_data|function|1de0c4a8a08b2d23|||||||||||||||
+clean_data2|function|d757e0f4eb9bc640|||||||||||||||
 clean_data3|function|c522175516929e83|||||||||||||||
 clean_movies|function|1de0c4a8a08b2d23|||||||||||||||
 clean_movies1|function|6cae7ba3a3c18119|||||||||||||||
@@ -12,14 +12,14 @@ clean_movies2|function|68bfb4cd17f82b11|||||||||||||||
 clean_movies3|function|c522175516929e83|||||||||||||||
 content_categories|stem|2050a19cf6514711|05fe01e9738749b0|a1b3105bb0ba44b5|-1842928593||t19798.9670452797s|4ea3c64b861dda77|48060|rds|local|vector|||0.052||
 fit_model|function|8d35e91d81340003|||||||||||||||
-gene_cell1|stem|c8d824242aa54121|903eaac0c6d460cc|9d5729dec495a9be|324002894||t19886.5790290781s|6f4c3c775ad9cd4d|528|rds|local|vector|||0.001||
-gene_cell2|stem|d7a55efde77d2811|249469e3989b3be6|a2871bc42110f98a|-1284742309||t19886.579029176s|a4e86d7dd5320bc6|530|rds|local|vector|||0||
+gene_cell1|stem|c8d824242aa54121|f8b11a1025cdc761|f1f40e8012b20ba1|324002894||t19888.1267439155s|6f4c3c775ad9cd4d|528|rds|local|vector|||0||
+gene_cell2|stem|d7a55efde77d2811|7e312d33fedf2dc3|f1f40e8012b20ba1|-1284742309||t19888.1267440819s|a4e86d7dd5320bc6|530|rds|local|vector|||0.005||
 gene_data|stem|44aa5b5097c45f60|b4d4d0a7202fa075|ef46db3751d8e999|1727003020|raw-data/2024-03-19-WIF-tis4d.csv|t19801.5253981009s|5d37e50e702fd324|3752|file|local|vector|||1.152||
-gene_data_clean|stem|6950aea6ea7d278a|f5652d38e21fa57b|ddf7f5a75865ffed|-232423158||t19886.5800001528s|35c48de246a8856b|871|rds|local|vector|||0.299||
+gene_data_clean|stem|6950aea6ea7d278a|f5652d38e21fa57b|c0b595fc84973175|-232423158||t19888.1267426936s|35c48de246a8856b|871|rds|local|vector|||0.39||
 gene_name|function|75a8c574730e24c5|||||||||||||||
 gene_plot|stem|478ab982b64ae37e|10790a4fc75a804a|e96db6242c568d1d|-406782303||t19887.9267974583s|9ac49cfa5c2aaf56|354030|rds|local|vector|||0.97|The size argument of element_rect is deprecated as of ggplot2 3.4.0.ℹ Please use the linewidth argument instead.. The size argument of element_line is deprecated as of ggplot2 3.4.0.ℹ Please use the linewidth argument instead.. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in PostScript font database. font family times not found in|
 genres|stem|fb82e973a4af4c72|b84cb5d7ebfbf43b|969e5085a7d1e0ac|-1744762769||t19798.9670472847s|b4c17dbd66f58f0a|10710|rds|local|vector|||0.021||
-get_table|function|ea2014cdad0cf831|||||||||||||||
+get_table|function|a98a50643f33e7e3|||||||||||||||
 get_table_display|function|32542b342907e588|||||||||||||||
 get_table_growth|function|bff12347f60a7617|||||||||||||||
 get_table2|function|00dde5a0a043da05|||||||||||||||

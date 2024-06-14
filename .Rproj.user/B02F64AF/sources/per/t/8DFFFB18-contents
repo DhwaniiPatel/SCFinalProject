@@ -1,8 +1,7 @@
 fit_model <- function(gene) {
 
   options(scipen = 999)
- # mixed effects model with predictors: concentration, treatment and cell line
- # random intercept varied by each group name
+
   gene_mixed = lmer(gene_expression ~ conc+treatment+cell_line
                      + (1 | name), REML = FALSE, data = gene)
 
@@ -13,12 +12,6 @@ fit_model <- function(gene) {
   #report::report(gene_mixed2)
 
   return(gene_mixed)
-}
-
-# model results
-model_results <- function(model_output) {
-  results <- tab_model(model_output, file = "data/model_output.html")
-  return(results)
 }
 # pacman::p_load(tidyverse, targets)
 # tar_load(mpg_clean)

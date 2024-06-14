@@ -55,7 +55,7 @@ plot_scatter <- function(gene_cell1,gene_cell2) {
 }
 
 plot2 <- function(gene_mixed,gene) {
-  ## Plotting residual ~ fitted
+  ## Plotting our own residual ~ fitted
   lmer_fitted <- predict(gene_mixed, newdata = gene, re.form = ~(1 |name))
   lmer_resid <- gene$gene_expression - lmer_fitted
 

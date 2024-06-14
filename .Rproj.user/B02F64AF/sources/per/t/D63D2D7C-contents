@@ -1,22 +1,20 @@
 get_table <- function(gene_cell) {
-  # get grouped table for each combination of predictors
   table <- gene_cell |>
     distinct(cell_line, treatment, name) |>
     arrange(desc(treatment),desc(cell_line)) |>
     gt() |>
     fmt_number(col = 2)
-  #gtsave(table, "tabs/gene_cell.html")
+  gtsave(table, "tabs/gene_cell.html")
   return(table)
 }
 
-# growth rates helper function
+# growth rates
 gene_name <- function(gene,name1,cell_line1,treatment1) {
   gene_name <- subset(gene,
                       name == name1)
   return(gene_name)
 }
 
-# growth rates calculation
 growth_rate <- function(gene_cell) {
   gene_cell_growth = gene_cell |> arrange(conc) |>
     mutate(Diff_conc = conc - lag(conc),  # Difference in concentration
@@ -25,7 +23,6 @@ growth_rate <- function(gene_cell) {
   return(gene_cell_growth)
 }
 
-# growth rates table format
 get_table_growth <- function(gene) {
 
   Cdz = growth_rate(gene_name(gene,'Gl-Cdz'))$Rate[2:11]
@@ -44,6 +41,11 @@ get_table_growth <- function(gene) {
   df |> gt()
   #gtsave(df, "tabs/growth_rate.html")
   #write.csv(df, "data/2024-06-12-growth_rate.csv", row.names = FALSE)
+}
+
+model_results <- function(model_output) {
+  results <- tab_model(model_output, file = "data/model_output.html")
+  return(results)
 }
 
 # pacman::p_load(tidyverse, targets, gt)
